@@ -1,5 +1,9 @@
 body{
     background-color: burlywood;
+    
+}
+section{
+    color:white;
 }
 
 #header{
@@ -16,7 +20,7 @@ img{
 #cím{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
+    color: white;
 }
 nav {
     border: solid white 5px;
