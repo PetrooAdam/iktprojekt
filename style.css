@@ -42,3 +42,14 @@ footer {
     border: solid white 1px;
     padding: 0px;
     margin-top: 5%;}
+
+#xbox{
+    width: 100px;
+    height: 100px;
+}
+
+#ps{
+    width: 150px;
+    height: 100px;
+    margin-left: -40px;
+}
