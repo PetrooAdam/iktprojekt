@@ -5,8 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
   <link href="style.css" rel="stylesheet">
   <title>SZIA Világ</title>
 </head>
@@ -18,28 +21,24 @@
     </header>
 
 
-    <div class="collapsing" id="navbarToggleExternalContent">
-      <div class="bg-dark p-4">
-          <h5 class="text-white h4">Menü</h5>
-          <span class="text-muted"><a href="#etelek">Ételek</a></span>
-          <br><span class="text-muted"><a href="#konyhafonok1">konyhafonok</a></span>
-          <br><span class="text-muted"><a href="#footer">Készítő, linkek.</a></span>
-      </div>
-  </div>
-  <nav class="navbar navbar-dark bg-dark">
-      <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-      </div>
-  </nav>
+    
+    <nav class="navbar navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="Mellékoldalak/teszt.html">Features</a>
+          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Disabled</a>
+        </div>
+    </nav>
 
 
-    
-    
-    
+
+
+
     <div>
       <section>
         <h2>Mi az a játékfüggőség?</h2>
@@ -50,36 +49,29 @@
           elől.</p>
       </section>
     </div>
-    <div class="text-center">
-      <img
-        src="https://cdn.ripost.hu/2022/11/d0uyfBPiP6yEpKUqfqXsi8GefLLXyTnVFc_my8pQOA8/fill/850/478/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzRiNjY5NWQ0ZmZlMTQ5ZWU4MmQ0M2JiZDgwMjJhNzkz.jpg"
-        alt="sziaadi">
-    </div>
-    <div class="text-center">
-      <img src=https://api.hvg.hu/Img/981ba3b7-9144-4244-a8b1-39094b1840d5/35cebfaf-1a7a-4ef4-bb95-409809ed1cc4.jpg
-        alt="sziaadi">
-    </div>
-    <div class="text-center">
-      <img src=https://pb2.jegy.hu/imgs/system-4/program/000/067/875/experidance-nagyidai-ciganyok-474-279-78859.jpg
-        alt="sziaadi">
-    </div>
+   
+
+
+
+
+
     <div>
       <footer class="text-center p-0 fw-bold border-5 bg-dark" id="footer">
-          <div class="row ">
-              <div class="col-12 col-xl-4 col-md-6 col-sm-12">
-                  <br> Készítette: <i>Kis Levente</i>
-              </div>
-              <div class="col-12 col-xl-4 col-md-6 col-sm-12">
-                  <img src="images/flag.png" alt="hun" title="hun" id="hun">
-              </div>
-              <div class="col-12 col-xl-4 col-md-6 col-sm-12 text-center">
-                  <a href="https://www.rtlmost.hu/a-konyhafonok-p_7698">Konyhafőnök</a>
-                  <br> <a href="https://magyarkonyhaonline.hu/">Magyar Konyha</a>
-                  <br> <a href="https://streetkitchen.hu/"> Street kitchen</a>
-              </div>
+        <div class="row ">
+          <div class="col-12 col-xl-4 col-md-6 col-sm-12">
+            <br> Készítette: <i>Kis Levente</i>
           </div>
+          <div class="col-12 col-xl-4 col-md-6 col-sm-12">
+            <img src="images/flag.png" alt="hun" title="hun" id="hun">
+          </div>
+          <div class="col-12 col-xl-4 col-md-6 col-sm-12 text-center">
+            <a href="https://www.rtlmost.hu/a-konyhafonok-p_7698">Konyhafőnök</a>
+            <br> <a href="https://magyarkonyhaonline.hu/">Magyar Konyha</a>
+            <br> <a href="https://streetkitchen.hu/"> Street kitchen</a>
+          </div>
+        </div>
       </footer>
-  </div>
+    </div>
   </div>
 </body>
 
