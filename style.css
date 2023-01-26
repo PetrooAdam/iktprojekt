@@ -1,3 +1,8 @@
 body{
     background-color: blue;
 }
+
+img{
+    opacity: 80%;
+    border-radius: 100px;
+}
