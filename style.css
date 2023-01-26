@@ -18,3 +18,23 @@ img{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
 }
+nav {
+    border: solid white 5px;
+    margin-bottom: 5%;
+}
+body {
+    background-image: url(https://images.wallpaperscraft.com/image/single/wall_concrete_gray_176166_1920x1080.jpg);
+    margin: 0%;
+}
+footer a:hover {
+    color: grey;
+}
+footer a {
+    color: white;
+
+}
+footer {
+    color: white;
+    border: solid white 1px;
+    padding: 0px;
+    margin-top: 5%;}
