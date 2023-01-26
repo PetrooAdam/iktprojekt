@@ -1,8 +1,20 @@
 body{
-    background-color: blue;
+    background-color: burlywood;
+}
+
+#header{
+    height: 100px;
+    margin-bottom: 0px;
+    margin: auto;
 }
 
 img{
     opacity: 80%;
     border-radius: 100px;
+}
+
+#cím{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
 }
