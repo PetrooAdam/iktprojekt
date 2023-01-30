@@ -23,12 +23,14 @@ img{
     color: white;
 }
 nav {
-    border: solid white 5px;
+    border: solid white 1px;
     margin-bottom: 5%;
+
 }
 body {
     background-image: url(https://images.wallpaperscraft.com/image/single/wall_concrete_gray_176166_1920x1080.jpg);
     margin: 0%;
+
 }
 footer a:hover {
     color: grey;
@@ -53,3 +55,5 @@ footer {
     height: 100px;
     margin-left: -40px;
 }
+
+
