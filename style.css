@@ -13,6 +13,8 @@ section{
 }
 
 
+
+
 #cím{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -26,6 +28,7 @@ nav {
 body {
     background-image: url(https://images.wallpaperscraft.com/image/single/wall_concrete_gray_176166_1920x1080.jpg);
     margin: 0%;
+    padding: 0%;
 
 }
 footer a:hover {
@@ -56,6 +59,11 @@ footer {
     border-radius: 10%;
 }
 
+#fo1{
+    
+    width: 400px;
+    height: 200px;
+}
 
 .keret
 {
