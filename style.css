@@ -12,10 +12,6 @@ section{
     margin: auto;
 }
 
-img{
-    opacity: 80%;
-    border-radius: 100px;
-}
 
 #cím{
     text-align: center;
@@ -55,5 +51,28 @@ footer {
     height: 100px;
     margin-left: -40px;
 }
+#függöseg{
+    width: 546px;
+    border-radius: 10%;
+}
 
 
+.keret
+{
+    padding-top: 5rem;
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 992px) {
+
+    .keret{
+        padding-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .keret{
+        padding-top: 0rem;
+    }
+}
