@@ -12,10 +12,8 @@ section{
     margin: auto;
 }
 
-img{
-    opacity: 80%;
-    border-radius: 100px;
-}
+
+
 
 #cím{
     text-align: center;
@@ -30,6 +28,7 @@ nav {
 body {
     background-image: url(https://images.wallpaperscraft.com/image/single/wall_concrete_gray_176166_1920x1080.jpg);
     margin: 0%;
+    padding: 0%;
 
 }
 footer a:hover {
@@ -56,4 +55,16 @@ footer {
     margin-left: -40px;
 }
 
+#fo1{
+    ;
+    width: 400px;
+    height: 200px;
+}
 
+#szar{
+    padding: 0%;
+}
+
+#alap{
+    padding-top: 50px;
+}
