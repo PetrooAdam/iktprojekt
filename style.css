@@ -65,6 +65,11 @@ footer {
     height: 200px;
 }
 
+#fo2{
+    width: 400px;
+    height: 240px;
+}
+
 .keret
 {
     padding-top: 5rem;
@@ -83,4 +88,8 @@ footer {
     .keret{
         padding-top: 0rem;
     }
+}
+
+#alap{
+    margin-top: 4%;
 }
