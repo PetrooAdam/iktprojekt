@@ -65,11 +65,12 @@ footer {
     height: 200px;
 }
 
-.keret
+/*#keret
 {
     padding-top: 5rem;
     border: 1px solid red;
 }
+*/
 
 @media screen and (max-width: 992px) {
 
