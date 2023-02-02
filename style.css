@@ -22,7 +22,9 @@ section{
 }
 nav {
     border: solid white 1px;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
 
 }
 body {
@@ -65,12 +67,17 @@ footer {
     height: 200px;
 }
 
-/*#keret
+#fo2{
+    width: 400px;
+    height: 240px;
+}
+
+.keret
 {
     padding-top: 5rem;
     border: 1px solid red;
 }
-*/
+
 
 @media screen and (max-width: 992px) {
 
@@ -84,4 +91,23 @@ footer {
     .keret{
         padding-top: 0rem;
     }
+}
+
+#alap{
+    margin-top: 4%;
+}
+
+section{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#navalatt{
+    width: 95%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+#navalattsz{
+    float: inline-start 100px;
 }
