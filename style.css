@@ -1,11 +1,13 @@
 body {
-    background-image: url(https://images.wallpaperscraft.com/image/single/wall_concrete_gray_176166_1920x1080.jpg);
+    background-image: url(https://images.wallpaperscraft.com/image/single/wall_concrete_gray_176166_1920x1080.jpg); 
     margin: 0%;
     padding: 0%;
     
 }
 section{
     color:white;
+
+    padding: 10px;
    
 }
 
@@ -79,11 +81,21 @@ footer {
     height: 240px;
 }
 
-#fo3{
-    height: 545px;
-    width: 200px;
-    border-radius: 20px;
-    border: 3px solid white;
+#kutatas{
+    /* background-image: url(https://static.displate.com/280x392/displate/2022-12-19/2457bc78d58a43f21db8e530ea18cfeb_28fff654911313d377f54d4d65b99ffd.jpg ); */
+    background-color: #292c2f;
+    border: 1px solid red;
+    border-radius: 30px;
+    margin-bottom: 16px;
+
+}
+
+#betegseg{
+    background-color: #292c2f;
+    border: 1px solid red;
+    border-radius: 30px;
+    margin-bottom: 16px;
+
 }
 
 .keret
@@ -107,9 +119,7 @@ footer {
     }
 }
 
-#alap{
-    margin-top: 4%;
-}
+
 
 section{
     margin-left: 15%;
@@ -124,11 +134,12 @@ section{
 
 #szoveg{
     font-family:'Courier New', monospace; 
-    border: 3px solid white;
+    border: 1px solid white;
     background-color: #292c2f;
     padding: 5%;
     border-radius: 20px;
 }
+
 
 
 
