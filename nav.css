@@ -2,6 +2,8 @@
     color: white;
     font-size: 20px;
     font-family: arvo;
+    float: left !important;
+
 }
 
 nav.primary-navigation {
