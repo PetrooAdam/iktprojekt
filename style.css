@@ -29,14 +29,8 @@ footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
-nav {
-    border: solid white 1px;
-    margin-bottom: 1%;
-    margin-left: 2%;
-    margin-right: 2%;
 
 
-}
 
 footer a:hover {
     color: grey;
@@ -137,11 +131,7 @@ section{
     margin-right: 15%;
 }
 
-#navalatt{
-    width: 95%;
-    margin-bottom: 1%;
-    text-align: center;
-}
+
 
 #szoveg{
     font-family:'Courier New', monospace; 
