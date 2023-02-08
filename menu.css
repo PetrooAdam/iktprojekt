@@ -70,10 +70,11 @@
     letter-spacing: 10px;
     width: 1800px;
     height: 1800px;
+    color: white;
 }
 
 .menubody ul li:nth-child(6n+1) a:before {
-    background: #81ecec;
+    background-image: url(https://media.tenor.com/M1KPEboSVCEAAAAM/yasincengiz38-skibididop.gif);
 }
 
 .menubody ul li:nth-child(6n+2) a:before {
@@ -95,3 +96,4 @@
 ul li:nth-child(6n+6) a:before {
     background: #ffeaa7;
 }*/
+
