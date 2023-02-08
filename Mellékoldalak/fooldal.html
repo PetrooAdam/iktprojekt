@@ -10,11 +10,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="nav.css">
-  <link rel="stylesheet" href="footer.css">
-  <link rel="stylesheet" href="sidebar.css">
-  <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../menu.css">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../nav.css">
+  <link rel="stylesheet" href="../footer.css">
+  <link rel="stylesheet" href="../sidebar.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <title>Főoldal</title>
 </head>
 
@@ -46,30 +49,18 @@
 
 
 
-  <div class="row">
-    <div class="container-fluid">
-      <p class="navcim col col-sm col-md col-lg col-xl col-xxl">Főoldal</p>
-      <nav role="navigation" class="primary-navigation col col-sm col-md-9 col-lg-9 col-xl-9 col-xxl-9 dropdown">
-        <div class="dropdown-content">
-          <ul>
-            <li class="elso3 navbetu"><a href="index.html">Főoldal</a></li>
-            <li class="elso3 navbetu"><a href="/Mellékoldalak/kialakulasa.html">Kialakulása<!--&dtrif;--></a>
-              <!--<ul class="dropdown">
-              <li id="sorolas"><a href="#" >Web Development</a></li>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Illustration</a></li>
-              <li><a href="#">Iconography</a></li>
-            </ul>-->
-            <li class="elso3 navbetu"><a href="Mellékoldalak/teszt2.html">TESZT2</a></li>
-            <li id="utolso" class="navbetu"><a href="Mellékoldalak/kovetkezmenyei.html">Következményei</a></li>
-          </ul>
-        </div>
-      </nav>
-      <div class="info col col-sm col-md col-lg col-xl col-xxl">
-        <a href="Mellékoldalak/info.html"><img src="../kepek/informacio.png" alt="" height="50" width="50"></a>
-      </div>
+  <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+    <div class="wrapper">
+      <ul>
+        <li><a href="../menu.html">MENU</a></li>
+        <li><a href="fooldal.html">Főoldal</a></li>
+        <li><a href="kialakulasa.html">Kialakulása</a></li>
+        <li><a href="teszt2.html">TESZT2</a></li>
+        <li><a href="kovetkezmenyei.html">Következményei</a></li>
+      </ul>
     </div>
-  </div>
 
 
   <!--<div>
@@ -239,13 +230,13 @@
 
       <div class="footer-right">
 
-        <a href="https://github.com/PetrooAdam/iktprojekt" target="_blank"><img src="kepek/25231.png" alt="git"
+        <a href="https://github.com/PetrooAdam/iktprojekt" target="_blank"><img src="../kepek/25231.png" alt="git"
             id="footerkep"><i class="fa fa-git"></i></a>
-        <a href="https://trello.com/b/j25MUycX/feladataim" target="_blank"> <img src="kepek/trello.png" alt="trtello"
+        <a href="https://trello.com/b/j25MUycX/feladataim" target="_blank"> <img src="../kepek/trello.png" alt="trtello"
             id="footerkep"><i class="fa fa-trello"></i></a>
-        <a href="https://www.w3schools.com/" target="_blank"><img src="kepek/w3school.png" alt="w3" id="footerkep"><i
+        <a href="https://www.w3schools.com/" target="_blank"><img src="../kepek/w3school.png" alt="w3" id="footerkep"><i
             class="fa fa-w3"></i></a>
-        <a href="https://www.ckik.hu/" target="_blank"> <img src="kepek/ckik_logo1_5ddb5979c8.png" alt="ckik"
+        <a href="https://www.ckik.hu/" target="_blank"> <img src="../kepek/ckik_logo1_5ddb5979c8.png" alt="ckik"
             id="footerkep"> <i class="fa fa-ckik"></i></a>
 
       </div>
@@ -254,13 +245,13 @@
 
         <p class="footer-links">
           <a class="link-1" href="https://www.instagram.com/levente2115_/" target="_blank"> <img
-              src="kepek/pngwing.com (3).png" alt="insta" id="footerkep"> </a>
+              src="../kepek/pngwing.com (3).png" alt="insta" id="footerkep"> </a>
 
           <a class="link-1" href="https://www.instagram.com/szenczi.szabolcs/" target="_blank"> <img
-              src="kepek/pngwing.com (3).png" alt="insta" id="footerkep"> </a>
+              src="../kepek/pngwing.com (3).png" alt="insta" id="footerkep"> </a>
 
           <a class="link-1" href="https://www.instagram.com/_d_m_petr_/" target="_blank"> <img
-              src="kepek/pngwing.com (3).png" alt="insta" id="footerkep"> </a>
+              src="../kepek/pngwing.com (3).png" alt="insta" id="footerkep"> </a>
 
           <a href="#">Terv</a>
 
