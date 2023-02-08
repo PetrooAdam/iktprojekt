@@ -10,9 +10,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
-  <link href="../style.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="../nav.css">
   <link rel="stylesheet" href="../footer.css">
+  <link rel="stylesheet" href="../sidebar.css">
   <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
   <title>Következményei</title>
 </head>
@@ -20,7 +21,7 @@
 <body>
   <div>
     <header class="text-center p-1" id="header">
-      <div class=" row col-12 col-xl-12 col-md-12 col-sm-12">
+      <div class="row">
 
         <div class="col-12 col-xl-4 col-md-4 col-sm-4">
           <img
@@ -41,36 +42,31 @@
 
 
 
-    <div class="container-fluid bg-dark">
-      
-      <div id="szo">Következményei</div>
-
-      <nav role="navigation" class="primary-navigation">
-        <ul>
-          <li><a href="../index.html">Főoldal</a></li>
-          <li><a href="kialakulasa.html">Kialakulása </a>
-            
-          </li>
-          <li><a href="teszt2.html">TESZT2</a></li>
-          <li id="utolso"><a href="kovetkezmenyei.html">Következményei</a></li>
-        </ul>
-      </nav>
-
-      <div class="jobbra dropdown-container" tabindex="-1" id="szo">
-        <div class="three-dots"><img src="../kepek/informacio.png" alt=""></div>
-        <div class="dropdown">
-          <a href="#">
-            <div>Források</div>
-          </a>
-          <a href="#">
-            <div>Érzéseink</div>
-          </a>
-          <!--<a href="#">
-              <div>still some money left?</div>
-            </a>-->
+    <div class="row">
+      <div class="container-fluid">
+        <p class="navcim col col-sm col-md col-lg col-xl col-xxl">Következményei</p>
+        <nav role="navigation" class="primary-navigation col col-sm col-md-9 col-lg-9 col-xl-9 col-xxl-9 dropdown">
+          <div class="dropdown-content">
+            <ul>
+              <li class="elso3 navbetu"><a href="../index.html">Főoldal</a></li>
+              <li class="elso3 navbetu"><a href="kialakulasa.html">Kialakulása
+                  <!--&dtrif;-->
+                </a>
+                <!--<ul class="dropdown">
+                <li id="sorolas"><a href="#" >Web Development</a></li>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Illustration</a></li>
+                <li><a href="#">Iconography</a></li>
+              </ul>-->
+              <li class="elso3 navbetu"><a href="teszt2.html">TESZT2</a></li>
+              <li id="utolso" class="navbetu"><a href="kovetkezmenyei.html">Következményei</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="info col col-sm col-md col-lg col-xl col-xxl">
+          <a href="info.html"><img src="../kepek/informacio.png" alt="" height="50" width="50"></a>
         </div>
       </div>
-
     </div>
 
 
@@ -80,12 +76,91 @@
 
     <div>
       <section>
-        <h2>Mi az a játékfüggőség?</h2>
-        <p>A kényszeres, az egész életmódot átalakító, kontrollvesztett játékot űzők szenvednek játékfüggőség
-          szindrómájában. Ez a függőségek között a viselkedési addikciók körébe tartozik. Ilyenkor a "külvilág
-          megszűnik" a játékos számára. Ez problémáinak "látszólagos" megszűnését is jelenti, vagyis a játék akár
-          valamilyen frusztrációra, sokkra, traumára adott válasz is lehet. Egyfajta menekülést jelenthet a valóság
-          elől.</p>
+
+
+
+
+        <h2 class="text-center" id="miaza"> 🎮— Bevezető — 🎮 </h2>
+        <p id="szoveg">A számítógépes játékok túlzásba vitele sok következménnyel járhat, ami nincs jó hatással az
+          emberre. A rövidlátás, szorongás, depresszió, figyelemzavar, alvászavar, elhízás, rossz testtartás - a
+          számítógépes játékfüggőség összes lehetséges következménye, amelyet tanulmányok bizonyítottak. Most bemutatunk
+          pár lehetséges következményt, ami egyesével is vagy akár egymásból is bekövetkezhetnek.</p>
+        <div class="row" id="alap">
+          <div class="col-12 col-xl-12 col-md-12 col-sm-12 text-center">
+            <h2> 🎮 — Elhízás — 🎮 </h2>
+          </div>
+          <div class="text-center col-12 col-xl-8 col-md-8 col-sm-12">
+            <p id="szoveg">A borongós mindennapok együtt járnak a számítógépes játékfüggőséggel. Akik csak számítógépen
+              vagy okostelefonon kapaszkodnak, azoknak nincs több idejük más, aktívabb szabadidős tevékenységekre. A
+              korábbi hobbikról, például a futballról lemondanak.
+              A képernyőn és a kanapén töltött idő már nem elég energiát elégetni. Általában a menü gyorsétteremmé
+              változik, mert gyorsabb és kényelmesebb elkészíteni.
+              Számos tanulmányban megfigyelték, hogy nemcsak a sportnak kell meghátrálnia. A függők általában elveszítik
+              érdeklődésüket a természet és a kívül álló dolgok iránt. A bent maradás fizikai inaktivitáshoz vezet.
+              Minél fiatalabb az érintett, annál súlyosabb következményekkel jár. Mert ha az elhízás gyermekkorban
+              jelentkezik, az gyakran az egész életen átívelő probléma. A kövér gyerekek általában kövér felnőttekké
+              válnak.
+              A túlsúly mellett tipikus mellékhatások is vannak:
+              Krónikus betegségek (pl. Cukorbetegség)
+              Egészségtelen életmód
+              Rossz munkahelyi kilátások a gyenge iskolai teljesítmény miatt
+              Az elhízás nemcsak az érintetteknek árt. A kár az egész gazdaságra vonatkozóan is számszerűsíthető.
+              2014-re a károkat több mint 1500 milliárd euróra becsülték.</p>
+          </div>
+          <div class="text-center col-12 col-xl-4 col-md-4 col-sm-12" id="kutatas">
+            <img class="" src="../kepek/dagadek.jpg" alt="papapapa yes yes yes">
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="text-center col-12 col-xl-12 col-md-12 col-sm-12">
+            <h2> 🎮 — Álmatlanság — 🎮</h2>
+          </div>
+          <div class="text-center col-12 col-xl-4 col-md-6 col-sm-12" id="betegseg">
+
+          </div>
+          <div class="text-center col-12 col-xl-8 col-md-6 col-sm-12 ">
+            <p id="szoveg">Minden tanár ismer fáradt diákokat, akik alig tudják követni az órát. Sok esetben
+              okostelefonok és számítógépek lehetnek az okok. Norvég kutatók 3 módot találtak az alvás megzavarására:
+              A számítógépes játékok, a Facebook és az Instagram kiszorítja az alvást. A játékosok gyakran késő
+              éjszakáig játszanak. Ez az idő hiányzik az alvási számláról.
+              Az okostelefonok és a számítógép képernyőjének fényének kék összetevője azt sugallja az agy számára, hogy
+              még mindig világos a nap. Ennek eredményeként az alvási hormon melatonin nem szabadul fel. Az
+              alváslaboratóriumokban kimutatható, hogy az esti képernyőidő befolyásolja az alvási időt és az éjszakai
+              minőséget.
+              Számítógépes játékok, a közösségi médiában tett bejegyzések és az online fórumokon folytatott heves viták
+              izgatnak minket. A média szándékosan csalja a cikkeket, hogy tovább tudjon tartani bennünket. Ez az
+              izgalom és nyugtalanság nem hagyja, hogy később elaludjunk. Nincs kikapcsoló gomb, amellyel
+              kikapcsolhatnánk.
+              Az alvás-ébrenlét ritmusa a számítógépes játékfüggőknél az szabálytalan, elhalasztott vagy törölve. Ez
+              többek között annak köszönhető, hogy más időzónákból érkező játékosokkal is játszanak, vagy az éjszaka
+              idejét használják, mert akkor biztosan nem állítja meg őket senki.
+              Az alvás-ébrenlét ritmusa óráról órára változik az éjszakába, majd reggelbe, amikor az álmatlanság „inkább
+              játszani akar egy újabb kört, ahelyett, hogy nem tudna aludni az ágyban”. A számítógépes játékok
+              bűvöletében néhány függő ember egyszerűen ébren marad, amíg el nem alszik a számítógép előtt.
+              Szélsőséges esetekben az alváshiány életveszélyes szövődményekhez vezethet. A középtávú károk azonban
+              gyakoribbak. Krónikus alváshiány gyengíti az immunrendszert és elősegíti a depressziót. </p>
+          </div>
+        </div>
+
+        <div class="row" id="alap">
+          <div class="col-12 col-xl-12 col-md-12 col-sm-12 text-center">
+            <h2> 🎮 — Tudnivalók — 🎮 </h2>
+          </div>
+          <div class="text-center col-12 col-xl-8 col-md-8 col-sm-12">
+            <p id="szoveg">Leginkább a szerencsejáték-függőséghez hasonlítható, ahol annak ellenére, hogy a játékos
+              mennyit veszít, úgy érzi, mindig van hová tovább. A következő kör jobb lesz és a befektetett pénz és idő
+              sikereket hoz majd. Valójában azonban bármilyen más szenvedélyhez hasonlíthatnánk. A videojáték-függőség
+              tünetei nem különböznek nagyon a dohányzásétól vagy az alkoholétól sem. A szenvedélybeteg tisztában van a
+              kockázatokkal és a negatív hatásokkal, a fiktív vagy reális kedvező következmények miatt azonban kész
+              vállalni őket.</p>
+          </div>
+          <div class="text-center col-12 col-xl-4 col-md-4 col-sm-12" id="kutatas">
+
+          </div>
+        </div>
+
       </section>
     </div>
 
