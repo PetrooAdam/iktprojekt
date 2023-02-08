@@ -12,6 +12,7 @@ section{
 }
 
 #header{
+    
     margin-bottom: 0px;
     margin: auto;
 }
@@ -105,7 +106,11 @@ footer {
 
 
 @media screen and (max-width: 992px) {
-
+    aside, aside *{
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
     .keret{
         padding-top: 10rem;
     }
@@ -138,6 +143,9 @@ section{
     padding: 5%;
     border-radius: 20px;
 }
+
+
+
 
 
 

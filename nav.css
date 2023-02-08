@@ -1,8 +1,12 @@
-#kovetkezmeny {
+.container-fluid{
+    display: flex;
+}
+
+#szo{
+    width: 20%;
     color: white;
     font-size: 20px;
     font-family: arvo;
-    float: left;
 }
 
 nav.primary-navigation {
