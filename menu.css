@@ -80,7 +80,7 @@
 }
 
 .menubody ul li:nth-child(6n+2) a:before {
-    background: #ff7675;
+    background: grey;
 }
 
 .menubody ul li:nth-child(6n+3) a:before {
