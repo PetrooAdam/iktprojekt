@@ -83,6 +83,7 @@ section {
   line-height: 35px;
   margin-left: 5px;
   transition:all .25s;
+  padding: 5px;
 }
 
 .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
