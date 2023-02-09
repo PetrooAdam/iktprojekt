@@ -12,7 +12,7 @@ section{
 }
 
 #header{
-    height: 100px;
+    
     margin-bottom: 0px;
     margin: auto;
 }
@@ -29,14 +29,8 @@ footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
-nav {
-    border: solid white 1px;
-    margin-bottom: 1%;
-    margin-left: 2%;
-    margin-right: 2%;
 
 
-}
 
 footer a:hover {
     color: grey;
@@ -106,7 +100,11 @@ footer {
 
 
 @media screen and (max-width: 992px) {
-
+    aside, aside *{
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
     .keret{
         padding-top: 10rem;
     }
@@ -118,6 +116,13 @@ footer {
         padding-top: 0rem;
     }
 }
+@media screen and (max-width: 680px) {
+
+    #ps , #xbox{
+        width: 0px;
+        margin-top: -100px;
+    }
+}
 
 
 
@@ -126,11 +131,7 @@ section{
     margin-right: 15%;
 }
 
-#navalatt{
-    width: 95%;
-    margin-bottom: 1%;
-    text-align: center;
-}
+
 
 #szoveg{
     font-family:'Courier New', monospace; 
@@ -139,6 +140,9 @@ section{
     padding: 5%;
     border-radius: 20px;
 }
+
+
+
 
 
 
