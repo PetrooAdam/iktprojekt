@@ -77,10 +77,12 @@
     width: 1800px;
     height: 1800px;
     color: white;
+    font-size: 350%;
 }
 
 .menubody ul li:nth-child(6n+2) a:before {
     background-image: url(https://media.tenor.com/M1KPEboSVCEAAAAM/yasincengiz38-skibididop.gif);
+    background-size: cover;
 }
 
 .menubody ul li:nth-child(6n+3) a:before {
