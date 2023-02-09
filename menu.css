@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
+#köszöntés{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    margin-bottom: 80px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -74,20 +80,20 @@
     font-size: 350%;
 }
 
-.menubody ul li:nth-child(6n+1) a:before {
+.menubody ul li:nth-child(6n+2) a:before {
     background-image: url(https://media.tenor.com/M1KPEboSVCEAAAAM/yasincengiz38-skibididop.gif);
     background-size: cover;
 }
 
-.menubody ul li:nth-child(6n+2) a:before {
-    background: grey;
-}
-
 .menubody ul li:nth-child(6n+3) a:before {
-    background: #55efc4;
+    background: #ff7675;
 }
 
 .menubody ul li:nth-child(6n+4) a:before {
+    background: #55efc4;
+}
+
+.menubody ul li:nth-child(6n+5) a:before {
     background: #a29bfe;
 }
 

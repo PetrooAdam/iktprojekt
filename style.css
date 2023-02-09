@@ -55,9 +55,19 @@ footer {
 }
 
 #ps{
-    width: 150px;
+    width: 140px;
     height: 100px;
-    margin-left: -40px;
+    
+
+}
+
+.psimg{
+        width: 30%;
+
+}
+
+.center{
+    width: 40%;
 }
 #függöseg{
     width: 546px;
