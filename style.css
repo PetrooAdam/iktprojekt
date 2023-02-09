@@ -17,6 +17,8 @@ section{
     margin: auto;
 }
 
+
+
 footer{
     margin-left: 2%;
     margin-right: 2%;
@@ -28,6 +30,7 @@ footer{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
+    margin-top: 5%;
 }
 
 
