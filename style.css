@@ -112,11 +112,20 @@ footer {
     border: 1px solid red;
     
 }
+#kezel{
+    border-radius: 10%;
+    padding-top: 8rem;
+}
+#kezel3{
+    border-radius: 10%;
+}
 #függöseg{
     padding-top: 7rem;}
 
 #függöseg2{
-        padding-top: 12rem;}
+        padding-top: 12rem;
+        border-radius: 10%;
+    }
 
 @media screen and (max-width: 1700px) {
     #függöseg{
@@ -124,6 +133,15 @@ footer {
     }
     #függöseg2{
         padding-top: 12rem;
+    }
+    #kezel{
+        padding-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 1510px) {
+    #kezel3{
+        padding-top: 4rem;
     }
 }
 
@@ -133,6 +151,9 @@ footer {
     }
     #függöseg2{
         padding-top: 20rem;
+    }
+    #kezel{
+        padding-top: 15rem;
     }
 }
 
@@ -144,6 +165,12 @@ footer {
         padding-top: 0rem;
     }
     #függöseg3{
+        width: 0px;
+    }
+    #kezel1{
+        width: 0px;
+    }
+    #kezel2{
         width: 0px;
     }
 }
