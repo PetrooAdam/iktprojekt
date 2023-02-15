@@ -10,6 +10,6 @@ title = "Jó reggelt!";
 else
 if(hours>19)
 {
-title="Szép éjszakát!";
+title="Szép Estét!";
 }
 document.querySelector('body h1').innerHTML = title;
