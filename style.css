@@ -11,20 +11,6 @@ section{
    
 }
 
-#header{
-    
-    margin-bottom: 0px;
-    margin: auto;
-}
-
-
-
-footer{
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-
 
 #cím{
     text-align: center;
@@ -32,26 +18,7 @@ footer{
     color: white;
     margin-top: 5%;
 }
-
-
-
-footer a:hover {
-    color: grey;
-}
-footer a {
-    color: white;
-
-}
-footer {
-    color: white;
-    border: solid white 1px;
-    padding: 0px;
-    margin-bottom: 1%;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 5%;
-}
-    
+  
 #xbox{
     width: 100px;
     height: 100px;
@@ -69,6 +36,7 @@ footer {
 
 }
 
+
 .center{
     width: 40%;
 }
@@ -78,52 +46,50 @@ footer {
     
 }
 
-#fo1{
-    
-    width: 400px;
-    height: 200px;
-}
 
-#fo2{
-    width: 400px;
-    height: 240px;
-}
 
-#kutatas{
-    /* background-image: url(https://static.displate.com/280x392/displate/2022-12-19/2457bc78d58a43f21db8e530ea18cfeb_28fff654911313d377f54d4d65b99ffd.jpg ); */
+
+
+
+
+
+
+.kutatas{
+    background-image: url(kepek/ces-file-02-gty-jef-210711_1626027804263_hpMain_1x1_608.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #292c2f;
-    border: 1px solid red;
+    border: 1px solid white;
     border-radius: 30px;
     margin-bottom: 16px;
-
 }
 
-#betegseg{
+.betegseg{
+    background-image: url(kepek/kep.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #292c2f;
-    border: 1px solid red;
+    border: 1px solid white;
     border-radius: 30px;
     margin-bottom: 16px;
-
 }
 
-.keret
-{
-    padding-top: 5rem;
-    border: 1px solid red;
-    
+.tudnivalok{
+    background-image: url(kepek/tudnivalo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292c2f;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 16px;
 }
-#függöseg{
-    padding-top: 7rem;}
 
-#függöseg2{
-        padding-top: 12rem;}
-
-@media screen and (max-width: 1700px) {
-    #függöseg{
-        padding-top: 7rem;
-    }
-    #függöseg2{
-        padding-top: 12rem;
+@media screen and (max-width: 1510px) {
+    #kezel3{
+        padding-top: 4rem;
     }
 }
 
@@ -133,6 +99,9 @@ footer {
     }
     #függöseg2{
         padding-top: 20rem;
+    }
+    #kezel{
+        padding-top: 15rem;
     }
 }
 
@@ -146,19 +115,14 @@ footer {
     #függöseg3{
         width: 0px;
     }
-}
-
-@media screen and (max-width: 992px) {
-    aside, aside *{
-        visibility: hidden;
-        height: 0px;
+    #kezel1{
         width: 0px;
     }
-    .keret{
-        padding-top: 10rem;
+    #kezel2{
+        width: 0px;
     }
-   
 }
+
 
 @media screen and (max-width: 768px) {
 
@@ -172,6 +136,13 @@ footer {
         width: 0px;
         margin-top: -100px;
     }
+}
+
+@media screen and (max-width: 960px) {
+    .fooldalkepdiv{
+        width: 0%;
+    }
+    
 }
 
 
