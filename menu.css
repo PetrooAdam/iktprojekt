@@ -81,20 +81,21 @@
 }
 
 .menubody ul li:nth-child(6n+2) a:before {
-    background-image: url(https://media.tenor.com/M1KPEboSVCEAAAAM/yasincengiz38-skibididop.gif);
-    background-size: cover;
+    /*background-image: url(https://media.tenor.com/M1KPEboSVCEAAAAM/yasincengiz38-skibididop.gif);
+    background-size: cover;*/
+    background: #034694;
 }
 
 .menubody ul li:nth-child(6n+3) a:before {
-    background: #ff7675;
+    background: #3457D5;
 }
 
 .menubody ul li:nth-child(6n+4) a:before {
-    background: #55efc4;
+    background: #6495ED;
 }
 
 .menubody ul li:nth-child(6n+5) a:before {
-    background: #a29bfe;
+    background: #87CEEB;
 }
 
 /*.menubody ul li:nth-child(6n+5) a:before {

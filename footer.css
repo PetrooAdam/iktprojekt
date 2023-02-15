@@ -16,6 +16,27 @@ section {
   text-decoration: underline;
 }
 */
+footer a:hover {
+  color: grey;
+}
+footer a {
+  color: white;
+
+}
+footer {
+  color: white;
+  border: solid white 1px;
+  padding: 0px;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5%;
+}
+
+footer{
+  margin-left: 2%;
+  margin-right: 2%;
+}
 
 .footer-distributed {
   background-color: #292c2f;
