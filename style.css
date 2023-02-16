@@ -58,6 +58,36 @@ section{
 
 }
 
+.kezel1{
+    background-image: url(kepek/pszic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292c2f;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 16px;}
+
+.kezel2{
+    background-image: url(kepek/eft-erzelmi-felszabaditas-technikaja-1-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292c2f;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 16px;}
+
+.kezel4{
+    background-image: url(kepek/happy-family.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292c2f;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 16px;}
+
 .kialakulas2{
     background-image: url(kepek/asdasd.jpg);
     background-position: center;
