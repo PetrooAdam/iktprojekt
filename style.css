@@ -45,11 +45,38 @@ section{
     border-radius: 10%;
     
 }
+#függöseg2{
+    border-radius: 10%;
+}
 
+#kezel{
+    border-radius: 10%;
+    padding-top: 5rem;
+}
+#kezel3{
+    border-radius: 10%;
 
+}
 
+.kialakulas2{
+    background-image: url(kepek/asdasd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292c2f;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 16px;}
 
-
+.kialakulas1{
+    background-image: url(kepek/imgonline-com-ua-ReplaceColor-GeHNulcz6lv6z-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292c2f;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 16px;}
 
 
 
@@ -86,10 +113,16 @@ section{
     border-radius: 30px;
     margin-bottom: 16px;
 }
+@media screen and (max-width: 1810px) {
+    #kezel1{
+        padding-top: 4rem;
+    }
+}
+
 
 @media screen and (max-width: 1510px) {
     #kezel3{
-        padding-top: 4rem;
+        padding-top: 2rem;
     }
 }
 
@@ -101,7 +134,7 @@ section{
         padding-top: 20rem;
     }
     #kezel{
-        padding-top: 15rem;
+        padding-top: 12rem;
     }
 }
 
@@ -114,12 +147,20 @@ section{
     }
     #függöseg3{
         width: 0px;
+        opacity: 0%;
+        margin: 0px;
+        padding: 0px;
     }
     #kezel1{
         width: 0px;
+        height: 0px;
+        opacity: 0%;
+        margin: 0px;
+        padding: 0px;
     }
     #kezel2{
         width: 0px;
+        opacity: 0%;
     }
 }
 
@@ -200,7 +241,9 @@ section{
 
 
 
-
+.fasz{
+    border: solid 5px red   ;
+}
 
 
 
