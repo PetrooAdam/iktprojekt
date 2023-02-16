@@ -279,8 +279,14 @@ section{
     background-size: cover;
 }  
 
+.divkozepre{
+    padding-top: 4.5%;
+}
 
-
+.temacim{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
 
