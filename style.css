@@ -1,64 +1,68 @@
 body {
-    background-image: url(https://images.wallpaperscraft.com/image/single/wall_concrete_gray_176166_1920x1080.jpg); 
+    background-image: url(https://images.wallpaperscraft.com/image/single/wall_concrete_gray_176166_1920x1080.jpg);
     margin: 0%;
     padding: 0%;
-    
+
 }
-section{
-    color:white;
+
+section {
+    color: white;
 
     padding: 10px;
-   
+
 }
 
 
-#cím{
+#cím {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     margin-top: 5%;
 }
-  
-#xbox{
+
+#xbox {
     width: 100px;
     height: 100px;
 }
 
-#ps{
+#ps {
     width: 140px;
     height: 100px;
-    
+
 
 }
 
-.psimg{
-        width: 30%;
+.psimg {
+    width: 30%;
 
 }
 
 
-.center{
+.center {
     width: 40%;
 }
-#függöseg{
+
+#függöseg {
     width: 546px;
     border-radius: 10%;
-    
+
 }
-#függöseg2{
+
+#függöseg2 {
     border-radius: 10%;
 }
 
-#kezel{
+#kezel {
     border-radius: 10%;
     padding-top: 5rem;
 }
-#kezel3{
+
+#kezel3 {
     border-radius: 10%;
 
 }
 
-.kezel1{
+.kezel1 {
     background-image: url(kepek/pszic.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -66,9 +70,10 @@ section{
     background-color: #292c2f;
     border: 1px solid white;
     border-radius: 30px;
-    margin-bottom: 16px;}
+    margin-bottom: 16px;
+}
 
-.kezel2{
+.kezel2 {
     background-image: url(kepek/eft-erzelmi-felszabaditas-technikaja-1-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -76,9 +81,10 @@ section{
     background-color: #292c2f;
     border: 1px solid white;
     border-radius: 30px;
-    margin-bottom: 16px;}
+    margin-bottom: 16px;
+}
 
-.kezel4{
+.kezel4 {
     background-image: url(kepek/happy-family.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -86,19 +92,10 @@ section{
     background-color: #292c2f;
     border: 1px solid white;
     border-radius: 30px;
-    margin-bottom: 16px;}
+    margin-bottom: 16px;
+}
 
-.kialakulas2{
-    background-image: url(kepek/asdasd.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #292c2f;
-    border: 1px solid white;
-    border-radius: 30px;
-    margin-bottom: 16px;}
-
-.kialakulas1{
+.kialakulas1 {
     background-image: url(kepek/imgonline-com-ua-ReplaceColor-GeHNulcz6lv6z-removebg-preview.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -106,12 +103,26 @@ section{
     background-color: #292c2f;
     border: 1px solid white;
     border-radius: 30px;
-    margin-bottom: 16px;}
+    margin-bottom: 16px;
+}
+
+
+.kialakulas2 {
+    background-image: url(kepek/asdasd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292c2f;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 16px;
+}
 
 
 
 
-.kutatas{
+
+.kutatas {
     background-image: url(kepek/ces-file-02-gty-jef-210711_1626027804263_hpMain_1x1_608.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -122,7 +133,7 @@ section{
     margin-bottom: 16px;
 }
 
-.betegseg{
+.betegseg {
     background-image: url(kepek/kep.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -133,7 +144,7 @@ section{
     margin-bottom: 16px;
 }
 
-.tudnivalok{
+.tudnivalok {
     background-image: url(kepek/tudnivalo.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -143,52 +154,59 @@ section{
     border-radius: 30px;
     margin-bottom: 16px;
 }
+
 @media screen and (max-width: 1810px) {
-    #kezel1{
+    #kezel1 {
         padding-top: 4rem;
     }
 }
 
 
 @media screen and (max-width: 1510px) {
-    #kezel3{
+    #kezel3 {
         padding-top: 2rem;
     }
 }
 
 @media screen and (max-width: 1350px) {
-    #függöseg{
+    #függöseg {
         padding-top: 10rem;
     }
-    #függöseg2{
+
+    #függöseg2 {
         padding-top: 20rem;
     }
-    #kezel{
+
+    #kezel {
         padding-top: 12rem;
     }
 }
 
 @media screen and (max-width: 1199px) {
-    #függöseg{
+    #függöseg {
         padding-top: 0rem;
     }
-    #függöseg2{
+
+    #függöseg2 {
         padding-top: 0rem;
     }
-    #függöseg3{
+
+    #függöseg3 {
         width: 0px;
         opacity: 0%;
         margin: 0px;
         padding: 0px;
     }
-    #kezel1{
+
+    #kezel1 {
         width: 0px;
         height: 0px;
         opacity: 0%;
         margin: 0px;
         padding: 0px;
     }
-    #kezel2{
+
+    #kezel2 {
         width: 0px;
         opacity: 0%;
     }
@@ -197,36 +215,38 @@ section{
 
 @media screen and (max-width: 768px) {
 
-    .keret{
+    .keret {
         padding-top: 0rem;
     }
 }
+
 @media screen and (max-width: 680px) {
 
-    #ps , #xbox{
+    #ps,
+    #xbox {
         width: 0px;
         margin-top: -100px;
     }
 }
 
 @media screen and (max-width: 765px) {
-    .fooldalkepdiv{
+    .fooldalkepdiv {
         opacity: 0%;
     }
-    
+
 }
 
 
 
-section{
+section {
     margin-left: 15%;
     margin-right: 15%;
 }
 
 
 
-#szoveg{
-    font-family:'Courier New', monospace; 
+#szoveg {
+    font-family: 'Courier New', monospace;
     border: 1px solid white;
     background-color: #292c2f;
     padding: 5%;
@@ -234,22 +254,21 @@ section{
     text-align: justify;
 }
 
-#foszoveg1{
-    font-family:'Courier New', monospace; 
+#foszoveg1 {
+    font-family: 'Courier New', monospace;
     border: 1px solid white;
     background-image: url(kepek/fooldalraps.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5%;
-    border-radius: 20px; 
+    border-radius: 20px;
 
 }
 
 
 
-/* PLS ne töröld ki*/
-.kovetkezmenyekDIV{
+.kovetkezmenyekDIV {
     border: 1px solid white;
     border-radius: 150px;
     height: 500px;
@@ -257,9 +276,9 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}   
+}
 
-.kovetkezmenyekDIV2{
+.kovetkezmenyekDIV2 {
     border: 1px solid white;
     border-radius: 30px;
     height: 300px;
@@ -267,9 +286,9 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}  
+}
 
-.kovetkezmenyekDIV3{
+.kovetkezmenyekDIV3 {
     border: 1px solid white;
     border-radius: 30px;
     height: 300px;
@@ -277,27 +296,13 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}  
+}
 
-.divkozepre{
+.divkozepre {
     padding-top: 4.5%;
 }
 
-.temacim{
+.temacim {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

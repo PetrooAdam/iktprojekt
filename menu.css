@@ -45,11 +45,7 @@
     transition: 0.5s;
 }
 
-.menubody ul:hover li a {
-    color: black;
-}
-
-.menubody ul li:hover a {
+.menubody ul li a:hover {
     color: #000;
     background: white;
 }
@@ -103,6 +99,11 @@
 }
 
 .menubody ul li:nth-child(6n+5) a:before {
+    background: #d25bfd;
+    opacity: 50%;
+}
+
+.menubody ul li:nth-child(6n+6) a:before {
     background: #e08cfe;
     opacity: 50%;
 }
