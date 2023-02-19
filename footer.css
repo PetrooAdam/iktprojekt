@@ -103,7 +103,7 @@ footer{
   line-height: 35px;
   margin-left: 4px;
   transition:all .25s;
-  padding: 0px;
+  padding: 3px;
 }
 
 .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
