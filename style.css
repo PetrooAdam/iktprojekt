@@ -1,168 +1,308 @@
 body {
-    background-image: url(https://images.wallpaperscraft.com/image/single/wall_concrete_gray_176166_1920x1080.jpg); 
+    background-image: url(https://images.wallpaperscraft.com/image/single/wall_concrete_gray_176166_1920x1080.jpg);
     margin: 0%;
     padding: 0%;
-    
+
 }
-section{
-    color:white;
+
+section {
+    color: white;
 
     padding: 10px;
-   
-}
 
-#header{
-    
-    margin-bottom: 0px;
-    margin: auto;
-}
-
-footer{
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
 
-
-#cím{
+#cím {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-}
-
-
-
-footer a:hover {
-    color: grey;
-}
-footer a {
-    color: white;
-
-}
-footer {
-    color: white;
-    border: solid white 1px;
-    padding: 0px;
-    margin-bottom: 1%;
-    margin-left: 2%;
-    margin-right: 2%;
     margin-top: 5%;
 }
-    
-#xbox{
+
+#xbox {
     width: 100px;
     height: 100px;
 }
 
-#ps{
-    width: 150px;
+#ps {
+    width: 140px;
     height: 100px;
-    margin-left: -40px;
+
+
 }
-#függöseg{
+
+.psimg {
+    width: 30%;
+
+}
+
+
+.center {
+    width: 40%;
+}
+
+#függöseg {
     width: 546px;
+    border-radius: 10%;
+
+}
+
+#függöseg2 {
     border-radius: 10%;
 }
 
-#fo1{
-    
-    width: 400px;
-    height: 200px;
-}
-
-#fo2{
-    width: 400px;
-    height: 240px;
-}
-
-#kutatas{
-    /* background-image: url(https://static.displate.com/280x392/displate/2022-12-19/2457bc78d58a43f21db8e530ea18cfeb_28fff654911313d377f54d4d65b99ffd.jpg ); */
-    background-color: #292c2f;
-    border: 1px solid red;
-    border-radius: 30px;
-    margin-bottom: 16px;
-
-}
-
-#betegseg{
-    background-color: #292c2f;
-    border: 1px solid red;
-    border-radius: 30px;
-    margin-bottom: 16px;
-
-}
-
-.keret
-{
+#kezel {
+    border-radius: 10%;
     padding-top: 5rem;
-    border: 1px solid red;
+}
+
+#kezel3 {
+    border-radius: 10%;
+
+}
+
+.kezel1 {
+    background-image: url(kepek/pszic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292c2f;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 16px;
+}
+
+.kezel2 {
+    background-image: url(kepek/eft-erzelmi-felszabaditas-technikaja-1-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292c2f;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 16px;
+}
+
+.kezel4 {
+    background-image: url(kepek/happy-family.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292c2f;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 16px;
+}
+
+.kialakulas1 {
+    background-image: url(kepek/imgonline-com-ua-ReplaceColor-GeHNulcz6lv6z-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292c2f;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 16px;
 }
 
 
-@media screen and (max-width: 992px) {
-    aside, aside *{
-        visibility: hidden;
-        height: 0px;
-        width: 0px;
+.kialakulas2 {
+    background-image: url(kepek/asdasd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292c2f;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 16px;
+}
+
+
+
+
+
+.kutatas {
+    background-image: url(kepek/ces-file-02-gty-jef-210711_1626027804263_hpMain_1x1_608.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292c2f;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 16px;
+}
+
+.betegseg {
+    background-image: url(kepek/kep.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292c2f;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 16px;
+}
+
+.tudnivalok {
+    background-image: url(kepek/tudnivalo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292c2f;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 1810px) {
+    #kezel1 {
+        padding-top: 4rem;
     }
-    .keret{
+}
+
+
+@media screen and (max-width: 1510px) {
+    #kezel3 {
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    #függöseg {
         padding-top: 10rem;
     }
+
+    #függöseg2 {
+        padding-top: 20rem;
+    }
+
+    #kezel {
+        padding-top: 12rem;
+    }
 }
+
+@media screen and (max-width: 1199px) {
+    #függöseg {
+        padding-top: 0rem;
+    }
+
+    #függöseg2 {
+        padding-top: 0rem;
+    }
+
+    #függöseg3 {
+        width: 0px;
+        opacity: 0%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #kezel1 {
+        width: 0px;
+        height: 0px;
+        opacity: 0%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #kezel2 {
+        width: 0px;
+        opacity: 0%;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
 
-    .keret{
+    .keret {
         padding-top: 0rem;
     }
 }
+
 @media screen and (max-width: 680px) {
 
-    #ps , #xbox{
+    #ps,
+    #xbox {
         width: 0px;
         margin-top: -100px;
     }
 }
 
+@media screen and (max-width: 765px) {
+    .fooldalkepdiv {
+        opacity: 0%;
+    }
+
+}
 
 
-section{
+
+section {
     margin-left: 15%;
     margin-right: 15%;
 }
 
 
 
-#szoveg{
-    font-family:'Courier New', monospace; 
+#szoveg {
+    font-family: 'Courier New', monospace;
     border: 1px solid white;
     background-color: #292c2f;
     padding: 5%;
     border-radius: 20px;
+    text-align: justify;
+}
+
+#foszoveg1 {
+    font-family: 'Courier New', monospace;
+    border: 1px solid white;
+    background-image: url(kepek/fooldalraps.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    border-radius: 20px;
+
 }
 
 
 
+.kovetkezmenyekDIV {
+    border: 1px solid white;
+    border-radius: 150px;
+    height: 500px;
+    background-image: url(kepek/alvo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.kovetkezmenyekDIV2 {
+    border: 1px solid white;
+    border-radius: 30px;
+    height: 300px;
+    background-image: url(kepek/fajahata.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.kovetkezmenyekDIV3 {
+    border: 1px solid white;
+    border-radius: 30px;
+    height: 300px;
+    background-image: url(kepek/pirosfej.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.divkozepre {
+    padding-top: 4.5%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.temacim {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
