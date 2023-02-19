@@ -246,7 +246,7 @@ section {
 
 
 #szoveg {
-    font-family: 'Courier New', monospace;
+    font-family: 'Courier New', monospace !important ;
     border: 1px solid white;
     background-color: #292c2f;
     padding: 5%;
