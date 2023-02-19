@@ -7,10 +7,13 @@ body {
 
 section {
     color: white;
+    margin-left: 15%;
+    margin-right: 15%;
 
     padding: 10px;
 
 }
+
 
 
 #cím {
@@ -32,15 +35,7 @@ section {
 
 }
 
-.psimg {
-    width: 30%;
 
-}
-
-
-.center {
-    width: 40%;
-}
 
 #függöseg {
     width: 546px;
@@ -61,6 +56,39 @@ section {
     border-radius: 10%;
 
 }
+
+#szoveg {
+    font-family: 'Courier New', monospace !important ;
+    border: 1px solid white;
+    background-color: #292c2f;
+    padding: 5%;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+#foszoveg1 {
+    font-family: 'Courier New', monospace;
+    border: 1px solid white;
+    background-image: url(kepek/fooldalraps.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    border-radius: 20px;
+
+}
+
+
+.psimg {
+    width: 30%;
+
+}
+
+
+.center {
+    width: 40%;
+}
+
 
 .kezel1 {
     background-image: url(kepek/pszic.jpg);
@@ -119,9 +147,6 @@ section {
 }
 
 
-
-
-
 .kutatas {
     background-image: url(kepek/ces-file-02-gty-jef-210711_1626027804263_hpMain_1x1_608.jpg);
     background-position: center;
@@ -154,6 +179,46 @@ section {
     border-radius: 30px;
     margin-bottom: 16px;
 }
+
+.kovetkezmenyekDIV {
+    border: 1px solid white;
+    border-radius: 150px;
+    height: 500px;
+    background-image: url(kepek/alvo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kovetkezmenyekDIV2 {
+    border: 1px solid white;
+    border-radius: 30px;
+    height: 300px;
+    background-image: url(kepek/fajahata.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kovetkezmenyekDIV3 {
+    border: 1px solid white;
+    border-radius: 30px;
+    height: 300px;
+    background-image: url(kepek/pirosfej.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divkozepre {
+    padding-top: 4.5%;
+}
+
+.temacim {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 
 @media screen and (max-width: 1810px) {
     #kezel1 {
@@ -236,73 +301,9 @@ section {
 
 }
 
+@media screen and (max-width: 765px) {
+    .betegseg {
+        opacity: 0%;
+    }
 
-
-section {
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-
-
-#szoveg {
-    font-family: 'Courier New', monospace !important ;
-    border: 1px solid white;
-    background-color: #292c2f;
-    padding: 5%;
-    border-radius: 20px;
-    text-align: justify;
-}
-
-#foszoveg1 {
-    font-family: 'Courier New', monospace;
-    border: 1px solid white;
-    background-image: url(kepek/fooldalraps.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 5%;
-    border-radius: 20px;
-
-}
-
-
-
-.kovetkezmenyekDIV {
-    border: 1px solid white;
-    border-radius: 150px;
-    height: 500px;
-    background-image: url(kepek/alvo.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.kovetkezmenyekDIV2 {
-    border: 1px solid white;
-    border-radius: 30px;
-    height: 300px;
-    background-image: url(kepek/fajahata.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.kovetkezmenyekDIV3 {
-    border: 1px solid white;
-    border-radius: 30px;
-    height: 300px;
-    background-image: url(kepek/pirosfej.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.divkozepre {
-    padding-top: 4.5%;
-}
-
-.temacim {
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
