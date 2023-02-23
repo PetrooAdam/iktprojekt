@@ -1,24 +1,3 @@
-.navbar {
-
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #292C2F;
-  border: 1px solid white;
-}
-
-.navcim {
-  color: white;
-  font-size: 20px;
-  width: 20%;
-  margin-bottom: 0px;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-}
-
-
-
-
-
 
 * {
   margin: 0;
@@ -116,7 +95,7 @@
 
 .wrapper ul {
   position: absolute;
-  top: 70%;
+  top: 62%;
   left: 50%;
   height: 90%;
   transform: translate(-50%, -50%);
